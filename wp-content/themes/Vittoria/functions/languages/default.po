@@ -1,0 +1,783 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Vittoria\n"
+"POT-Creation-Date: 2013-06-21 16:24+0200\n"
+"PO-Revision-Date: 2013-06-21 16:24+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ../..\n"
+
+#: ../../404.php:11
+msgid "Error 404 - page not found"
+msgstr ""
+
+#: ../../404.php:12
+msgid "Ohh... You have requested the page that is no longer there"
+msgstr ""
+
+#: ../../archive.php:14
+msgid "Category Archive for"
+msgstr ""
+
+#: ../../archive.php:17
+msgid "Posts Tagged"
+msgstr ""
+
+#: ../../archive.php:20 ../../archive.php:23 ../../archive.php:26
+msgid "Archive for"
+msgstr ""
+
+#: ../../archive.php:29
+msgid "Author Archive"
+msgstr ""
+
+#: ../../archive.php:32
+msgid "Blog Archives"
+msgstr ""
+
+#: ../../comments.php:13
+msgid "No comments"
+msgstr ""
+
+#: ../../comments.php:13
+msgid "1 Comment. <a href=\"#comment\">Leave new</a>"
+msgstr ""
+
+#: ../../comments.php:13
+msgid "% Comments. <a href=\"#comment\">Leave new</a>"
+msgstr ""
+
+#: ../../comments.php:30
+msgid "Leave comment"
+msgstr ""
+
+#: ../../comments.php:32
+#, php-format
+msgid "You must be %slogged in%s to post a comment."
+msgstr ""
+
+#: ../../comments.php:40 ../../page-contact.php:243
+msgid "Your name"
+msgstr ""
+
+#: ../../comments.php:50 ../../page-contact.php:256
+msgid "Your email"
+msgstr ""
+
+#: ../../comments.php:61 ../../page-contact.php:281
+msgid "Your message"
+msgstr ""
+
+#: ../../comments.php:72
+msgid "Submit Comment"
+msgstr ""
+
+#: ../../header.php:71
+msgid "enter the query"
+msgstr ""
+
+#: ../../header.php:73
+msgid "Close search"
+msgstr ""
+
+#: ../../header.php:76 ../../searchform.php:11
+#: ../../functions/widgets/search.php:31
+msgid "Search"
+msgstr ""
+
+#: ../../header.php:87
+msgid "Toggle Nav"
+msgstr ""
+
+#: ../../page-contact.php:13
+msgid "Please, enter Your name"
+msgstr ""
+
+#: ../../page-contact.php:20
+msgid "Please, enter Your email"
+msgstr ""
+
+#: ../../page-contact.php:22
+msgid "Please, enter correct email"
+msgstr ""
+
+#: ../../page-contact.php:29
+msgid "Please, enter Your phone"
+msgstr ""
+
+#: ../../page-contact.php:36
+msgid "Please, enter Your message"
+msgstr ""
+
+#: ../../page-contact.php:62
+msgid "Contact request from"
+msgstr ""
+
+#: ../../page-contact.php:124
+msgid "Contact Info"
+msgstr ""
+
+#: ../../page-contact.php:127 ../../functions/widgets/contact.php:28
+#: ../../functions/widgets/contact.php:55
+msgid "Address"
+msgstr ""
+
+#: ../../page-contact.php:131 ../../functions/widgets/contact.php:59
+msgid "Phone"
+msgstr ""
+
+#: ../../page-contact.php:135 ../../functions/widgets/contact.php:37
+#: ../../functions/widgets/contact.php:63
+msgid "Email"
+msgstr ""
+
+#: ../../page-contact.php:225
+msgid "Get in Touch with Us"
+msgstr ""
+
+#: ../../page-contact.php:234
+msgid "Thank You"
+msgstr ""
+
+#: ../../page-contact.php:234
+msgid "Your message was sent"
+msgstr ""
+
+#: ../../page-contact.php:269
+msgid "Your phone"
+msgstr ""
+
+#: ../../page-contact.php:293
+msgid "Send Message"
+msgstr ""
+
+#: ../../page-contact.php:306 ../../page-faq.php:64
+#: ../../page-sidebar_left.php:38 ../../page-sidebar_right.php:38
+#: ../../page.php:11 ../../search.php:97 ../../single-us_portfolio.php:130
+#: ../../single.php:155 ../../templates/archive_big.php:73
+#: ../../templates/archive_simple.php:74 ../../templates/archive_small.php:82
+msgid "No posts were found."
+msgstr ""
+
+#: ../../page-faq.php:19 ../../page-sidebar_left.php:20
+#: ../../page-sidebar_right.php:20 ../../single.php:47
+#: ../../templates/archive_big.php:50 ../../templates/archive_small.php:54
+#: ../../templates/blog_big.php:52 ../../templates/blog_simple.php:46
+#: ../../templates/blog_small.php:56
+msgid "Read More &raquo;"
+msgstr ""
+
+#: ../../search.php:13
+msgid "Search Results for"
+msgstr ""
+
+#: ../../search.php:64 ../../single.php:42
+#: ../../functions/ajax_grid_blog.php:51 ../../templates/archive_big.php:44
+#: ../../templates/archive_simple.php:40 ../../templates/archive_small.php:48
+#: ../../templates/blog_big.php:46 ../../templates/blog_grid.php:47
+#: ../../templates/blog_simple.php:40 ../../templates/blog_small.php:50
+msgid "No Comments"
+msgstr ""
+
+#: ../../search.php:64 ../../single.php:42
+#: ../../functions/ajax_grid_blog.php:51 ../../templates/archive_big.php:44
+#: ../../templates/archive_simple.php:40 ../../templates/archive_small.php:48
+#: ../../templates/blog_big.php:46 ../../templates/blog_grid.php:47
+#: ../../templates/blog_simple.php:40 ../../templates/blog_small.php:50
+msgid "1 Comment"
+msgstr ""
+
+#: ../../search.php:64 ../../single.php:42
+#: ../../functions/ajax_grid_blog.php:51 ../../templates/archive_big.php:44
+#: ../../templates/archive_simple.php:40 ../../templates/archive_small.php:48
+#: ../../templates/blog_big.php:46 ../../templates/blog_grid.php:47
+#: ../../templates/blog_simple.php:40 ../../templates/blog_small.php:50
+msgid "% Comments"
+msgstr ""
+
+#: ../../searchform.php:7 ../../functions/widgets/search.php:27
+msgid "search"
+msgstr ""
+
+#: ../../single-us_portfolio.php:58 ../../single.php:82
+msgid "Share"
+msgstr ""
+
+#: ../../single.php:120
+msgid "Related Posts"
+msgstr ""
+
+#: ../../admin/classes/class.options_machine.php:458
+msgid "Last Backup : "
+msgstr ""
+
+#: ../../admin/classes/class.options_machine.php:617
+msgid "Upload"
+msgstr ""
+
+#: ../../admin/front-end/options.php:43 ../../admin/front-end/options.php:67
+msgid "Save All Changes"
+msgstr ""
+
+#: ../../admin/front-end/options.php:68
+msgid "Options Reset"
+msgstr ""
+
+#: ../../admin/functions/functions.mediauploader.php:20
+msgid "Options"
+msgstr ""
+
+#: ../../admin/functions/functions.mediauploader.php:210
+msgid "Gallery"
+msgstr ""
+
+#: ../../admin/functions/functions.mediauploader.php:210
+msgid "Previously Uploaded"
+msgstr ""
+
+#: ../../functions/breadcrumbs.php:10
+msgid "Home"
+msgstr ""
+
+#: ../../functions/breadcrumbs.php:11
+#, php-format
+msgid "Archive by Category \"%s\""
+msgstr ""
+
+#: ../../functions/breadcrumbs.php:12
+#, php-format
+msgid "Search Results for \"%s\" Query"
+msgstr ""
+
+#: ../../functions/breadcrumbs.php:13
+#, php-format
+msgid "Posts Tagged \"%s\""
+msgstr ""
+
+#: ../../functions/breadcrumbs.php:14
+#, php-format
+msgid "Articles Posted by %s"
+msgstr ""
+
+#: ../../functions/breadcrumbs.php:15
+msgid "Error 404"
+msgstr ""
+
+#: ../../functions/breadcrumbs.php:126
+msgid "Page"
+msgstr ""
+
+#: ../../functions/link_pages.php:33
+msgid "Pages:"
+msgstr ""
+
+#: ../../functions/link_pages.php:36
+msgid "Next page"
+msgstr ""
+
+#: ../../functions/link_pages.php:37
+msgid "Previous page"
+msgstr ""
+
+#: ../../functions/link_pages.php:132
+msgid "Prev"
+msgstr ""
+
+#: ../../functions/link_pages.php:142 ../../functions/shortcodes.php:102
+msgid "Next"
+msgstr ""
+
+#: ../../functions/menu.php:82
+msgid "Top Menu"
+msgstr ""
+
+#: ../../functions/plugin_activation.php:58
+#: ../../functions/plugin_activation.php:245
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../../functions/plugin_activation.php:59
+#: ../../functions/plugin_activation.php:246
+msgid "Install Plugins"
+msgstr ""
+
+#: ../../functions/plugin_activation.php:60
+#: ../../functions/plugin_activation.php:247
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../../functions/plugin_activation.php:61
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../../functions/plugin_activation.php:72
+#: ../../functions/plugin_activation.php:259
+#: ../../functions/plugin_activation.php:571
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../../functions/plugin_activation.php:73
+#: ../../functions/plugin_activation.php:260
+#: ../../functions/plugin_activation.php:1927
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../../functions/plugin_activation.php:74
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../../functions/plugin_activation.php:248
+msgid "Something went wrong."
+msgstr ""
+
+#: ../../functions/plugin_activation.php:261
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../../functions/plugin_activation.php:598
+#: ../../functions/plugin_activation.php:2139
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../../functions/plugin_activation.php:626
+#, php-format
+msgid "The following plugin was activated successfully: %s."
+msgstr ""
+
+#: ../../functions/plugin_activation.php:785
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../../functions/plugin_activation.php:1172
+msgid "External Link"
+msgstr ""
+
+#: ../../functions/plugin_activation.php:1177
+msgid "Private Repository"
+msgstr ""
+
+#: ../../functions/plugin_activation.php:1180
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../../functions/plugin_activation.php:1184
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../../functions/plugin_activation.php:1187
+msgid "Required"
+msgstr ""
+
+#: ../../functions/plugin_activation.php:1187
+msgid "Recommended"
+msgstr ""
+
+#: ../../functions/plugin_activation.php:1190
+msgid "Not Installed"
+msgstr ""
+
+#: ../../functions/plugin_activation.php:1192
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../../functions/plugin_activation.php:1362
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../../functions/plugin_activation.php:1378
+msgid "Plugin"
+msgstr ""
+
+#: ../../functions/plugin_activation.php:1379
+msgid "Source"
+msgstr ""
+
+#: ../../functions/plugin_activation.php:1380
+#: ../../functions/shortcodes.php:1444
+msgid "Type"
+msgstr ""
+
+#: ../../functions/plugin_activation.php:1381
+msgid "Status"
+msgstr ""
+
+#: ../../functions/plugin_activation.php:1399
+msgid "Install"
+msgstr ""
+
+#: ../../functions/plugin_activation.php:1400
+msgid "Activate"
+msgstr ""
+
+#: ../../functions/plugin_activation.php:1910
+msgid "Install package not available."
+msgstr ""
+
+#: ../../functions/plugin_activation.php:1911
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../../functions/plugin_activation.php:1912
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../../functions/plugin_activation.php:1913
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../../functions/plugin_activation.php:1914
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../../functions/plugin_activation.php:1915
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../../functions/plugin_activation.php:1926
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../../functions/plugin_activation.php:2036
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../../functions/plugin_activation.php:2037
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../../functions/plugin_activation.php:2037
+#: ../../functions/plugin_activation.php:2046
+msgid "Show Details"
+msgstr ""
+
+#: ../../functions/plugin_activation.php:2037
+#: ../../functions/plugin_activation.php:2046
+msgid "Hide Details"
+msgstr ""
+
+#: ../../functions/plugin_activation.php:2038
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../../functions/plugin_activation.php:2039
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../../functions/plugin_activation.php:2043
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../../functions/plugin_activation.php:2044
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../../functions/plugin_activation.php:2045
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../../functions/plugin_activation.php:2046
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../../functions/plugin_activation.php:2047
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../../functions/plugin_activation.php:2048
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../../functions/post_types.php:9
+msgid "Portfolio"
+msgstr ""
+
+#: ../../functions/post_types.php:10
+msgid "Portfolio Item"
+msgstr ""
+
+#: ../../functions/post_types.php:11
+msgid "Add Portfolio Item"
+msgstr ""
+
+#: ../../functions/post_types.php:25
+msgid "Clients"
+msgstr ""
+
+#: ../../functions/post_types.php:26
+msgid "Client"
+msgstr ""
+
+#: ../../functions/post_types.php:27
+msgid "Add client"
+msgstr ""
+
+#: ../../functions/post_types.php:40
+msgid "FAQs"
+msgstr ""
+
+#: ../../functions/post_types.php:41
+msgid "Question"
+msgstr ""
+
+#: ../../functions/post_types.php:42
+msgid "Add question"
+msgstr ""
+
+#: ../../functions/post_types.php:53
+msgid "Portfolio Categories"
+msgstr ""
+
+#: ../../functions/post_types.php:53
+msgid "Portfolio Category"
+msgstr ""
+
+#: ../../functions/post_types.php:84
+msgid ""
+"This post is password protected. To view it please enter your password below"
+msgstr ""
+
+#: ../../functions/post_types.php:84
+msgid "Submit"
+msgstr ""
+
+#: ../../functions/shortcodes.php:103
+msgid "Previous"
+msgstr ""
+
+#: ../../functions/shortcodes.php:1072
+msgid "Our Clients"
+msgstr ""
+
+#: ../../functions/shortcodes.php:1446
+msgid "S size thumbs"
+msgstr ""
+
+#: ../../functions/shortcodes.php:1447
+msgid "XS size thumbs"
+msgstr ""
+
+#: ../../functions/shortcodes.php:1448
+msgid "M size thumbs"
+msgstr ""
+
+#: ../../functions/shortcodes.php:1449
+msgid "L size thumbs"
+msgstr ""
+
+#: ../../functions/shortcodes.php:1450
+msgid "Masonry"
+msgstr ""
+
+#: ../../functions/sidebars.php:4
+msgid "Default Sidebar"
+msgstr ""
+
+#: ../../functions/sidebars.php:14
+msgid "Footer First Widget"
+msgstr ""
+
+#: ../../functions/sidebars.php:24
+msgid "Footer Second Widget"
+msgstr ""
+
+#: ../../functions/sidebars.php:34
+msgid "Footer Third Widget"
+msgstr ""
+
+#: ../../functions/widgets/archives.php:11
+msgid "A monthly archive of your site&#8217;s posts"
+msgstr ""
+
+#: ../../functions/widgets/archives.php:12
+msgid "Vittoria: Archives"
+msgstr ""
+
+#: ../../functions/widgets/archives.php:19
+msgid "Archives"
+msgstr ""
+
+#: ../../functions/widgets/archives.php:29
+msgid "Select Month"
+msgstr ""
+
+#: ../../functions/widgets/categories.php:11
+msgid "A list or dropdown of categories"
+msgstr ""
+
+#: ../../functions/widgets/categories.php:12
+msgid "Vittoria: Categories"
+msgstr ""
+
+#: ../../functions/widgets/categories.php:18
+msgid "Categories"
+msgstr ""
+
+#: ../../functions/widgets/categories.php:32
+msgid "Select Category"
+msgstr ""
+
+#: ../../functions/widgets/categories.php:73
+#, php-format
+msgid "View all posts filed under %s"
+msgstr ""
+
+#: ../../functions/widgets/categories.php:91
+#, php-format
+msgid "Feed for all posts filed under %s"
+msgstr ""
+
+#: ../../functions/widgets/contact.php:11
+msgid "Contact Information"
+msgstr ""
+
+#: ../../functions/widgets/contact.php:13
+msgid "Vittoria: Contact Widget"
+msgstr ""
+
+#: ../../functions/widgets/contact.php:18
+#: ../../functions/widgets/contact.php:46
+msgid "Contacts"
+msgstr ""
+
+#: ../../functions/widgets/contact.php:23
+#: ../../functions/widgets/twitter.php:64
+msgid "Title"
+msgstr ""
+
+#: ../../functions/widgets/contact.php:33
+msgid "Phone(s)"
+msgstr ""
+
+#: ../../functions/widgets/recent_posts.php:11
+msgid "The most recent posts on your site"
+msgstr ""
+
+#: ../../functions/widgets/recent_posts.php:12
+msgid "Vittoria: Recent Posts"
+msgstr ""
+
+#: ../../functions/widgets/recent_posts.php:38
+msgid "Recent Posts"
+msgstr ""
+
+#: ../../functions/widgets/search.php:11
+msgid "A search form for your site"
+msgstr ""
+
+#: ../../functions/widgets/search.php:12
+msgid "Vittoria: Search"
+msgstr ""
+
+#: ../../functions/widgets/tags.php:11
+msgid "Your most used tags in cloud format"
+msgstr ""
+
+#: ../../functions/widgets/tags.php:12
+msgid "Vittoria: Tag Cloud"
+msgstr ""
+
+#: ../../functions/widgets/tags.php:22
+msgid "Tags"
+msgstr ""
+
+#: ../../functions/widgets/text.php:11
+msgid "Arbitrary text or HTML"
+msgstr ""
+
+#: ../../functions/widgets/text.php:13
+msgid "Vittoria: Text Widget"
+msgstr ""
+
+#: ../../functions/widgets/twitter.php:12
+msgid "Recent Tweets block"
+msgstr ""
+
+#: ../../functions/widgets/twitter.php:14
+msgid "Vittoria: Recent Tweets"
+msgstr ""
+
+#: ../../functions/widgets/twitter.php:19
+msgid "Latest tweets"
+msgstr ""
+
+#: ../../functions/widgets/twitter.php:39
+msgid "loading tweets"
+msgstr ""
+
+#: ../../functions/widgets/twitter.php:59
+msgid "Recent Tweets"
+msgstr ""
+
+#: ../../functions/widgets/twitter.php:69
+msgid "Twitter ID"
+msgstr ""
+
+#: ../../functions/widgets/twitter.php:73
+msgid "Number of Tweets"
+msgstr ""
+
+#: ../../templates/archive_big.php:53 ../../templates/archive_small.php:57
+#: ../../templates/blog_big.php:55 ../../templates/blog_small.php:59
+msgid "Read More"
+msgstr ""
+
+#: ../../vendor/meta-box/inc/classes/meta-box.php:299
+msgid "Please correct the errors highlighted below and try again."
+msgstr ""
+
+#: ../../vendor/meta-box/inc/classes/meta-box.php:360
+msgid "+"
+msgstr ""
+
+#: ../../vendor/meta-box/inc/classes/meta-box.php:382
+msgid "&#8211;"
+msgstr ""
+
+#: ../../vendor/meta-box/inc/fields/file.php:66
+msgid "Error: Cannot delete file"
+msgstr ""
+
+#: ../../vendor/meta-box/inc/fields/image.php:64
+msgid "Order saved"
+msgstr ""
+
+#: ../../vendor/meta-box/inc/fields/map.php:46
+msgid "Find Address"
+msgstr ""
+
+#: ../../vendor/meta-box/inc/fields/post.php:54
+msgid "Post"
+msgstr ""
+
+#: ../../vendor/meta-box/inc/fields/post.php:68
+#: ../../vendor/meta-box/inc/fields/taxonomy.php:40
+#, php-format
+msgid "Select a %s"
+msgstr ""
+
+#: ../../vendor/meta-box/inc/fields/select-advanced.php:71
+msgid "Select a value"
+msgstr ""

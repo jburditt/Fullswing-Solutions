@@ -1,0 +1,157 @@
+<?php
+global $smof_data;
+?>
+<style id="vittoria_colors_inline">
+a,
+.g-btn.type_inverse,
+.g-btn.type_inverse:hover,
+.g-btn.type_inverse.disabled,
+.g-btn.type_inverse.disabled:hover,
+.g-btn.type_inverse.disabled:active,
+.w-features-item-icon,
+.w-listing.layout_tile.cols_fluid .w-listing-item-title,
+.w-tabs-item.active,
+.w-tabs.layout_accordion .w-tabs-section.active .w-tabs-section-title,
+.w-filters-item-link:hover,
+.w-filters-item.active .w-filters-item-link,
+.w-blog-entry-link:hover .w-blog-entry-title-h,
+.w-team-member-name,
+.g-html p strong,
+.w-timeline-item.active .w-timeline-item-title,
+.w-timeline-section.active .w-timeline-section-title-text {
+	color: <?php echo ($smof_data['link_color'] != '')?$smof_data['link_color']:'#f26500'; ?>;
+}
+
+.g-btn.type_color,
+.g-btn.type_color.disabled,
+.g-btn.type_color.disabled:hover,
+.g-btn.type_color.disabled:active,
+.l-submain.type_colored,
+.l-subheader.at_top .w-nav-item.level_1.active .w-nav-anchor.level_1,
+.l-subheader.at_top .w-nav-item.level_1.current-menu-item .w-nav-anchor.level_1,
+.l-subheader.at_top .w-nav-item.level_1.current-menu-ancestor .w-nav-anchor.level_1,
+.l-subheader.at_top .w-nav-item.level_1.clicked .w-nav-anchor.level_1,
+.l-subheader.at_top .w-nav-item.level_2.clicked .w-nav-anchor.level_2,
+.l-subheader.at_top .w-nav-item.level_3.clicked .w-nav-anchor.level_3,
+.l-subheader.at_top .w-nav-item.level_2:hover .w-nav-anchor.level_2,
+.l-subheader.at_top .w-nav-item.level_3:hover .w-nav-anchor.level_3,
+.l-subheader.at_top .w-nav-item.level_2.active:hover .w-nav-anchor.level_2,
+.l-subheader.at_top .w-nav-item.level_2.current-menu-item:hover .w-nav-anchor.level_2,
+.l-subheader.at_top .w-nav-item.level_2.current-menu-ancestor:hover .w-nav-anchor.level_2,
+.l-subheader.at_top .w-nav-item.level_3.active:hover .w-nav-anchor.level_3,
+.l-subheader.at_top .w-nav-item.level_3.current-menu-item:hover .w-nav-anchor.level_3,
+.l-subheader.at_top .w-nav-item.level_3.current-menu-ancestor:hover .w-nav-anchor.level_3,
+.w-nav-list.layout_ver .active .w-nav-anchor.level_1,
+.w-nav-list.layout_ver .active .w-nav-anchor.level_1:after,
+.w-links-item:hover .w-links-anchor,
+.w-actionbox.type_colored,
+.w-features-item-icon.type_circle,
+.w-features-item-bullet,
+.g-pagination-item.active,
+.w-blog-entry-link:active .w-blog-entry-title-h,
+.w-tags.layout_block .w-tags-item-link:hover,
+.flex-direction-nav a:hover,
+.tp-leftarrow.default:hover,
+.tp-rightarrow.default:hover,
+.tp-caption.very_big_color,
+.tp-caption.button_color a,
+.tp-caption.medium_color,
+.w-listing-item-image-bg i,
+.w-team-member-links,
+.w-iconbox-h:hover,
+.w-iconbox-icon:before,
+.w-portfolio-item-h,
+.w-timeline-item.active .w-timeline-item-bullet,
+.w-timeline-section.active .w-timeline-section-title-bullet,
+.w-services-item-icon:before,
+.w-pricing-item.type_featured .w-pricing-item-title,
+.g-html .w-calendar-table > tbody > tr > td a:hover,
+#wp-calendar tbody td a:hover,
+.widget.widget_nav_menu .menu-item.current-menu-item > a,
+.widget.widget_tag_cloud .tagcloud a:hover {
+	background-color: <?php echo ($smof_data['primary_color'] != '')?$smof_data['primary_color']:'#f26500'; ?>;
+}
+
+.g-btn.type_color,
+.g-btn.type_color.disabled,
+.g-btn.type_color.disabled:hover,
+.g-btn.type_color.disabled:active,
+.l-subheader.at_top .l-subheader-h,
+.l-canvas.type_wide .l-subheader.at_top,
+.l-submain.type_colored,
+.l-subheader.at_top .w-nav-item.level_1.active .w-nav-anchor.level_1,
+.l-subheader.at_top .w-nav-item.level_1.current-menu-item .w-nav-anchor.level_1,
+.l-subheader.at_top .w-nav-item.level_1.current-menu-ancestor .w-nav-anchor.level_1,
+.l-subheader.at_top .w-nav-item.level_1.clicked .w-nav-anchor.level_1,
+.l-subheader.at_top .w-nav-item.level_2.clicked .w-nav-anchor.level_2,
+.l-subheader.at_top .w-nav-item.level_3.clicked .w-nav-anchor.level_3,
+.l-subheader.at_top .w-nav-item.level_2:hover .w-nav-anchor.level_2,
+.l-subheader.at_top .w-nav-item.level_3:hover .w-nav-anchor.level_3,
+.l-subheader.at_top .w-nav-item.level_2.active:hover .w-nav-anchor.level_2,
+.l-subheader.at_top .w-nav-item.level_2.current-menu-item:hover .w-nav-anchor.level_2,
+.l-subheader.at_top .w-nav-item.level_2.current-menu-ancestor:hover .w-nav-anchor.level_2,
+.l-subheader.at_top .w-nav-item.level_3.active:hover .w-nav-anchor.level_3,
+.l-subheader.at_top .w-nav-item.level_3.current-menu-item:hover .w-nav-anchor.level_3,
+.l-subheader.at_top .w-nav-item.level_3.current-menu-ancestor:hover .w-nav-anchor.level_3,
+.w-nav-list.layout_ver .active .w-nav-anchor.level_1,
+.w-links-item:hover .w-links-anchor,
+.w-tabs-item.active,
+.w-clients-item:hover,
+.w-filters-item.active .w-filters-item-link,
+.w-blogpost,
+.w-iconbox-h:hover,
+.l-submain.type_background .w-iconbox-h:hover,
+.widget.widget_nav_menu .menu-item.current-menu-item > a {
+	border-color: <?php echo ($smof_data['primary_color'] != '')?$smof_data['primary_color']:'#f26500'; ?>;
+}
+.w-team-member-links:after {
+	border-right-color: <?php echo ($smof_data['primary_color'] != '')?$smof_data['primary_color']:'#f26500'; ?>;
+}
+.l-submain:first-child,
+.l-submain.type_colored + .l-submain.with_arrow:after {
+	border-top-color: <?php echo ($smof_data['primary_color'] != '')?$smof_data['primary_color']:'#f26500'; ?>;
+}
+
+.g-btn.type_color,
+.g-btn.type_color.disabled,
+.g-btn.type_color.disabled:hover,
+.g-btn.type_color.disabled:active {
+	box-shadow: 0 2px 0 <?php echo ($smof_data['btn_shadow_color'] != '')?$smof_data['btn_shadow_color']:'#d94f00'; ?>;
+}
+
+::-moz-selection {
+	background-color: <?php echo ($smof_data['btn_shadow_color'] != '')?$smof_data['btn_shadow_color']:'#d94f00'; ?>;
+}
+::selection {
+	background-color: <?php echo ($smof_data['btn_shadow_color'] != '')?$smof_data['btn_shadow_color']:'#d94f00'; ?>;
+}
+
+.w-blog-entry-link:active .w-blog-entry-title-h {
+	color: #fff;
+}
+</style>
+<style>
+body {
+<?php if ($smof_data['body_background_color'] != '') { ?>
+	background-color: <?php echo $smof_data['body_background_color'] ?>;
+<?php } ?>
+<?php if ($smof_data['body_background_image'] != '') { ?>
+	background-image: url(<?php echo $smof_data['body_background_image'] ?>);
+<?php } ?>
+<?php if ($smof_data['body_background_image_repeat'] != '') {
+ $baclgroundRepeatCss = array(
+	'Repeat' => 'repeat',
+	'Repeat Horizontally' => 'repeat-x',
+	'Repeat Vertically' => 'repeat-y',
+	'Do Not Repeat' => 'no-repeat',
+ );
+ ?>
+	background-repeat: <?php echo $baclgroundRepeatCss[$smof_data['body_background_image_repeat']] ?>;
+<?php } ?>
+}
+</style>
+<?php if ($smof_data['custom_css'] != '') { ?>
+<style>
+<?php echo $smof_data['custom_css'] ?>
+</style>
+<?php } ?>

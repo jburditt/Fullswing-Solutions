@@ -1,0 +1,55 @@
+/*!
+ * Social Icons from Fontello
+ * http://fontello.com/
+ */
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?69338189');
+  src: url('../font/fontello.eot?69338189#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff?69338189') format('woff'),
+       url('../font/fontello.ttf?69338189') format('truetype'),
+       url('../font/fontello.svg?69338189#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?69338189#fontello') format('svg');
+  }
+}
+*/
+ 
+[class^="iconsocial-"]:before, [class*=" iconsocial-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+}
+ 
+.iconsocial-gplus:before { content: '\2b'; } /* '+' */
+.iconsocial-pinterest:before { content: '\31'; } /* '1' */
+.iconsocial-blogger:before { content: '\42'; } /* 'B' */
+.iconsocial-dribbble:before { content: '\44'; } /* 'D' */
+.iconsocial-flickr:before { content: '\46'; } /* 'F' */
+.iconsocial-linkedin:before { content: '\4c'; } /* 'L' */
+.iconsocial-vk:before { content: '\e800'; margin-left: -.2em; } /* '?' */
+.iconsocial-rss:before { content: '\52'; } /* 'R' */
+.iconsocial-skype:before { content: '\53'; } /* 'S' */
+.iconsocial-twitter:before { content: '\54'; } /* 'T' */
+.iconsocial-youtube:before { content: '\55'; } /* 'U' */
+.iconsocial-vimeo:before { content: '\56'; margin-left: -.2em; } /* 'V' */
+.iconsocial-email:before { content: '\e801'; } /* '?' */
+.iconsocial-facebook:before { content: '\66'; } /* 'f' */
+.iconsocial-github:before { content: '\e802'; } /* '?' */
+.iconsocial-youtube-1:before { content: '\e804'; } /* '?' */
+.iconsocial-tumblr:before { content: '\e803'; } /* '?' */
