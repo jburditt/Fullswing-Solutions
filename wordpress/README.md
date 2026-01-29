@@ -1,5 +1,7 @@
 # Fullswing Solutions Consultation Website
 
+NOTE: If you need the original backed up files, see the first GitHub commit for the full wordpress files and not just wp-admin and wp-include folders
+
 Welcome to the Fullswing Solutions consultation website, a website for information on consulting and website, mobile, and app development services.
 
 This website was originally developed on Wordpress many years ago and has been updated to be deployed using docker containers, for cheaper MySQL database hosting. Azure SQL Database was going to cost $13.50 USD per month and a virtual machine running MySQL was going to cost $1.69 USD per month. This is partially an experiment to compare cost and also to learn how to deploy docker to Azure kubernetes or container services.
