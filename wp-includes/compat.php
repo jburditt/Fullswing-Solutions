@@ -499,22 +499,22 @@ if ( ! function_exists( 'spl_autoload_register' ) ):
 	 *
 	 * @param string $classname Class to attempt autoloading.
 	 */
-	function __autoload( $classname ) {
-		global $_wp_spl_autoloaders;
-		foreach ( $_wp_spl_autoloaders as $autoloader ) {
-			if ( ! is_callable( $autoloader ) ) {
-				// Avoid the extra warning if the autoloader isn't callable.
-				continue;
-			}
+	// function __autoload( $classname ) {
+	// 	global $_wp_spl_autoloaders;
+	// 	foreach ( $_wp_spl_autoloaders as $autoloader ) {
+	// 		if ( ! is_callable( $autoloader ) ) {
+	// 			// Avoid the extra warning if the autoloader isn't callable.
+	// 			continue;
+	// 		}
 
-			call_user_func( $autoloader, $classname );
+	// 		call_user_func( $autoloader, $classname );
 
-			// If it has been autoloaded, stop processing.
-			if ( class_exists( $classname, false ) ) {
-				return;
-			}
-		}
-	}
+	// 		// If it has been autoloaded, stop processing.
+	// 		if ( class_exists( $classname, false ) ) {
+	// 			return;
+	// 		}
+	// 	}
+	// }
 
 	/**
 	 * Registers a function to be autoloaded.
