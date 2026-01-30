@@ -13,7 +13,8 @@ docker run --rm -p 80:80 --mount type=bind,source=$(pwd)/html,target=/usr/share/
 ```
 
 ## TODO
-
+- Use the colours in css/colors/blue.css add replace the colours in css/style.css
+- Update revolution slider slides
 
 ## Azure Resource Naming Convention
 

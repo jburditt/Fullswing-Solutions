@@ -154,7 +154,8 @@
 				});
 			});
 
-			var cookieColor = $.cookie('switcherColors');
+			//var cookieColor = $.cookie('switcherColors');
+			var cookieColor = 'blue';
 			if (cookieColor != undefined && cookieColor != 'orange') {
 				var link = $('<link>', {rel: 'stylesheet', href: 'css/colors/'+cookieColor+'.css'}).appendTo('head'),
 					logo = $('.w-logo-img').attr('src', "img/logo-"+cookieColor+".png");
