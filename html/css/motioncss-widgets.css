@@ -1228,6 +1228,8 @@
 		font-size: 0;
 		}
 		.w-logo-link {
+			background-color: white;
+			padding: 8px 0 0 8px;
 			display: inline-block;
 			text-decoration: none;
 			overflow: hidden;
@@ -1249,7 +1251,7 @@
 			vertical-align: top;
 			}
 			.w-logo-slogan-h {
-				font-size: 16px;
+				font-size: 20px;
 				}
 
 
