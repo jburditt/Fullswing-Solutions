@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "deploy": "swa deploy ./html --app-name stapp-fullswing-prod --env production"
+  },
+  "devDependencies": {
+    "@azure/static-web-apps-cli": "^2.0.7"
+  }
+}

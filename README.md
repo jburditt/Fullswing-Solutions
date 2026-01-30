@@ -9,7 +9,13 @@ docker run --rm -p 80:80 --mount type=bind,source=$(pwd)/html,target=/usr/share/
 
 ## Deploy to Azure
 ```bash
-
+# create resource group
+az group create --name rg-fullswing --location canadacentral
+# create static web app
+az staticwebapp create --name stapp-fullswing-prod --resource-group rg-fullswing --location westus2
+az staticwebapp show --name stapp-fullswing-prod --resource-group rg-fullswing --query "defaultHostname" -o tsv
+# deploy website to static web app (Azure)
+npm run deploy
 ```
 
 ## TODO
