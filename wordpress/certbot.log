@@ -172,7 +172,7 @@ Container app created. To access it over HTTPS, enable ingress: az containerapp 
             "env": [
               {
                 "name": "MYSQL_ROOT_PASSWORD",
-                "value": "sjolbI40A975sZAK"
+                "value": "********"
               },
               {
                 "name": "MYSQL_USER",
@@ -180,7 +180,7 @@ Container app created. To access it over HTTPS, enable ingress: az containerapp 
               },
               {
                 "name": "MYSQL_PASSWORD",
-                "value": "sjolbI40A975sZAK"
+                "value": ""********""
               },
               {
                 "name": "MYSQL_DATABASE",
