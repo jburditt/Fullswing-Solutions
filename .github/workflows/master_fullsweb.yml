@@ -6,7 +6,7 @@ name: Build and deploy PHP app to Azure Web App - fullsweb
 on:
   push:
     branches:
-      - master
+      - master_DISABLED
   workflow_dispatch:
 
 jobs:
