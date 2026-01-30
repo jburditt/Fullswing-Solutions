@@ -4,8 +4,7 @@ Welcome to the Fullswing Solutions consultation website, a website for informati
 
 ## Deploy locally
 ```bash
-docker build -t fullswing-web .
-docker run --rm -p 80:80 --name fullswing-web -d fullswing-web
+docker run --rm -p 80:80 --mount type=bind,source=$(pwd)/html,target=/usr/share/nginx/html --name fullswing-web -d nginx:1.29.4-alpine-slim
 ```
 
 ## Deploy to Azure
