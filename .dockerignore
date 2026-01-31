@@ -2,3 +2,6 @@
 .git
 docker-compose.yml
 .dockerignore
+.terraform
+*.tfstate.backup
+devops/

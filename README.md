@@ -18,6 +18,12 @@ az staticwebapp show --name stapp-fullswing-prod --resource-group rg-fullswing -
 npm run deploy
 ```
 
+## Terraform
+```bash
+terraform init
+terraform apply -auto-approve
+```
+
 ## TODO
 - Use the colours in css/colors/blue.css add replace the colours in css/style.css
 - Update revolution slider slides
