@@ -1,5 +1,5 @@
 variable "resource_group_name" {
-  default = "rg-fullswing-consultation"
+  default = "rg-fs-consultation"
 }
 
 variable "location" {

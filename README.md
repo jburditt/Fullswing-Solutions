@@ -7,13 +7,13 @@ Welcome to the Fullswing Solutions consultation website, a website for informati
 docker run --rm -p 80:80 --mount type=bind,source=$(pwd)/html,target=/usr/share/nginx/html --name fullswing-web -d nginx:1.29.4-alpine-slim
 ```
 
-## Deploy to Azure
+## Deploy to Azure via CLI
 ```bash
 # create resource group
-az group create --name rg-fullswing --location canadacentral
+az group create --name rg-fs-consultation --location canadacentral
 # create static web app
-az staticwebapp create --name stapp-fullswing-prod --resource-group rg-fullswing --location westus2
-az staticwebapp show --name stapp-fullswing-prod --resource-group rg-fullswing --query "defaultHostname" -o tsv
+az staticwebapp create --name stapp-fs-consultation --resource-group rg-fs-consultatio --location westus2
+az staticwebapp show --name stapp-fs-consultation --resource-group rg-fs-consultatio --query "defaultHostname" -o tsv
 # deploy website to static web app (Azure)
 npm run deploy
 ```
