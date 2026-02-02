@@ -23,7 +23,45 @@ export ARM_SUBSCRIPTION_ID="ca62117d-82a8-4604-be26-46e1c3025e8b"
 export ARM_TENANT_ID="a3b56f32-a9ff-4f58-bbd1-1433edc18671"
 ```
 
-## Deploy
+## Deploy locally
 ```bash
 terraform apply -auto-approve
 ```
+
+## Deploy to Azure
+```bash
+terraform login
+```
+
+// https://registry.terraform.io/providers/kreuzwerker/docker/latest/docs
+--- terraform.tf
+
+  required_providers {
+    docker = {
+      source  = "kreuzwerker/docker"
+      version = "~> 3.0.2"
+    }
+  }
+
+--- main.tf
+
+provider "docker" {}
+
+resource "docker_image" "nginx" {
+  name         = "docker.mirror.hashicorp.services/nginx:1.29.4-alpine-slim"
+  keep_locally = false
+}
+
+resource "docker_container" "nginx" {
+  image = docker_image.nginx.image_id
+  name  = "tutorial"
+  ports {
+    internal = 80
+    external = 80
+  }
+}
+
+provider "docker" {
+  host = "tcp://your-remote-docker-host:2376"
+  cert_path = "/path/to/certs"
+}
